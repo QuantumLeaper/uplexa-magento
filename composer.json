@@ -1,0 +1,28 @@
+{
+    "name": "uplexa/uplexa-magento",
+    "description": "Accept Private uPlexa Payments",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+                "BSD-3"
+                ],
+    "authors": [
+                {
+                "name": "uPlexa Team",
+                "email": "uplexa@protonmail.com",
+                "homepage": "https://uplexa.com",
+                "role": "Developer"
+                }
+                ],
+    "autoload": {
+        "files": [
+                  "registration.php"
+                  ],
+        "psr-4": {
+            "uPlexa\\Custompayment\\": ""
+        }
+    }
+}
